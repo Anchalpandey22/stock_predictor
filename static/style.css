@@ -1,0 +1,126 @@
+/* =====================================================================
+   static/style.css
+   Custom styling for the Real-Time Stock Market Dashboard.
+   Inspired by Yahoo Finance / TradingView / MoneyControl style dashboards.
+   Works alongside Streamlit's own theme (configured in .streamlit/config.toml)
+   ===================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+html, body, [class*="css"] {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* ---------- Page padding ---------- */
+.block-container {
+    padding-top: 1.6rem;
+    padding-bottom: 3rem;
+}
+
+/* ---------- Headings ---------- */
+h1, h2, h3 {
+    font-weight: 700 !important;
+    letter-spacing: -0.02em;
+}
+
+/* ---------- KPI / metric cards ---------- */
+.kpi-card {
+    background: var(--card-bg, rgba(255,255,255,0.04));
+    border: 1px solid rgba(150,150,150,0.18);
+    border-radius: 14px;
+    padding: 16px 18px;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.kpi-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.18);
+}
+.kpi-label {
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    opacity: 0.65;
+    margin-bottom: 4px;
+}
+.kpi-value {
+    font-size: 1.55rem;
+    font-weight: 800;
+}
+.kpi-sub {
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-top: 2px;
+}
+.kpi-up { color: #16C784; }
+.kpi-down { color: #EA3943; }
+.kpi-flat { color: #8a8f98; }
+
+/* ---------- Status chips (market open/closed, alert active, etc.) ---------- */
+.chip {
+    display: inline-block;
+    padding: 3px 12px;
+    border-radius: 999px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+}
+.chip-open   { background: rgba(22,199,132,0.15); color: #16C784; border: 1px solid #16C784; }
+.chip-closed { background: rgba(234,57,67,0.12);  color: #EA3943; border: 1px solid #EA3943; }
+
+/* ---------- Section divider ---------- */
+.section-title {
+    font-size: 1.05rem;
+    font-weight: 700;
+    margin-top: 1.4rem;
+    margin-bottom: 0.6rem;
+    border-left: 4px solid #2E86FF;
+    padding-left: 10px;
+}
+
+/* ---------- Watchlist / portfolio row cards ---------- */
+.stock-row {
+    border: 1px solid rgba(150,150,150,0.15);
+    border-radius: 10px;
+    padding: 10px 14px;
+    margin-bottom: 6px;
+}
+
+/* ---------- News card ---------- */
+.news-card {
+    border: 1px solid rgba(150,150,150,0.16);
+    border-radius: 12px;
+    padding: 14px 16px;
+    margin-bottom: 12px;
+}
+.news-meta {
+    font-size: 0.78rem;
+    opacity: 0.65;
+    margin-bottom: 6px;
+}
+
+/* ---------- Disclaimer banner ---------- */
+.disclaimer-box {
+    background: rgba(255,176,32,0.10);
+    border: 1px solid #FFB020;
+    border-radius: 10px;
+    padding: 12px 16px;
+    font-size: 0.85rem;
+    margin-bottom: 1rem;
+}
+
+/* ---------- Sidebar ---------- */
+section[data-testid="stSidebar"] {
+    border-right: 1px solid rgba(150,150,150,0.15);
+}
+
+/* ---------- Buttons ---------- */
+.stButton > button {
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+/* ---------- DataFrames ---------- */
+[data-testid="stDataFrame"] {
+    border-radius: 10px;
+    overflow: hidden;
+}

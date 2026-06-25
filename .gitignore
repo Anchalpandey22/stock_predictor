@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+database/database.db
+reports/*.csv
+reports/*.pdf
+reports/*.xlsx
+!reports/.gitkeep
+.env
+.DS_Store
