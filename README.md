@@ -6,7 +6,7 @@ built as a student/portfolio project using free, public data sources (Yahoo Fina
 `yfinance`, and optionally NewsAPI for headlines).
 
 >  **Disclaimer:** This project is for educational purposes only. Nothing in this dashboard
-> — especially the AI Prediction page — is financial advice. Do not use it to make real
+> — especially the AI Prediction page — is financial advice. Do not use it to make real 
 > investment decisions.
 
 --- 
