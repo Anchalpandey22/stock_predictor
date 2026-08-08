@@ -9,7 +9,7 @@ built as a student/portfolio project using free, public data sources (Yahoo Fina
 > — especially the AI Prediction page — is financial advice. Do not use it to make real 
 > investment decisions.
 
---- 
+---  
 
 ## Features
 
