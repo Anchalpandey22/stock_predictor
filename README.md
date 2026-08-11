@@ -1,4 +1,4 @@
-#  StockSense — Real-Time Stock Market Dashboard 
+#  Stock_predictor — Real-Time Stock Market Dashboard 
 
 A full-stack, multi-page **Streamlit** dashboard for tracking stocks, building a portfolio,
 running simple AI price predictions, reading market news with sentiment tagging, and more —
