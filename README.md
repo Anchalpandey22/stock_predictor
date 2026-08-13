@@ -10,7 +10,7 @@ built as a student/portfolio project using free, public data sources (Yahoo Fina
 > investment decisions.
 
 ---   
-
+ 
 ## Features
 
 - **Home / Market Overview** — major indices (S&P 500, NASDAQ, Dow Jones), market open/closed
