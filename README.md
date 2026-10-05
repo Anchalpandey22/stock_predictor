@@ -7,7 +7,7 @@ built as a student/portfolio project using free, public data sources (Yahoo Fina
 
 >  **Disclaimer:** This project is for educational purposes only. Nothing in this dashboard
 > — especially the AI Prediction page — is financial advice. Do not use it to make real 
-> investment decisions.
+> investment decisions 
 
 ---   
  
