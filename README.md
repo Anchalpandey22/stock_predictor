@@ -1,6 +1,6 @@
 #  Stock_predictor — Real-Time Stock Market Dashboard 
 
-A full-stack, multi-page **Streamlit** dashboard for tracking stocks, building a portfolio,
+A full-stack, multi-page **Streamlit** dashboard for tracking stocks, building a portfolio, 
 running simple AI price predictions, reading market news with sentiment tagging, and more —
 built as a student/portfolio project using free, public data sources (Yahoo Finance via
 `yfinance`, and optionally NewsAPI for headlines).
